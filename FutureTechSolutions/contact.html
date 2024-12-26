@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <!-- fa icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Website icon -->
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -42,18 +44,28 @@
         <!-- Contact Section -->
         <div class="container">
             <section id="contact">
+                <div class="text-center">
+                    <!-- Icon envelope -->
+                    <i class="fa fa-envelope-o fa-3x text-primary" aria-hidden="true"></i>
+                </div>
                 <h2 class="h2 text-center mb-4">Contact Us</h2>
                 <form class="contact-form mx-auto col-md-10">
                     <div class="form-group mb-3">
+                        <!-- Icon name -->
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
                         <label for="name">Name:</label>
                         <input type="text" class="form-control rounded-pill" id="name" placeholder="Enter your name">
                     </div>
                     <div class="form-group">
+                        <!-- Icon email -->
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         <label for="email">Email:</label>
                         <input type="email" class="form-control rounded-pill" id="email" placeholder="Enter your email">
                     </div>
                     <div class="form-group">
                         <!-- Type of enquiry -->
+                        <!-- Icon ask -->
+                        <i class="fa fa-question-circle-o" aria-hidden="true"></i>
                         <label for="enquiry">Type of Enquiry:</label>
                         <select class="form-control rounded-pill" id="enquiry">
                             <option value="IT Consulting">IT Consulting</option>
@@ -65,6 +77,7 @@
                     </div>
                     <div class="form-group">
                         <!-- Tech literacy -->
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                         <!-- radio button -->
                         <label for="tech-literacy">Tech Literacy:</label>
                         <div class="form-check">
@@ -77,11 +90,13 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <!-- Icon message -->
+                        <i class="fa fa-comment" aria-hidden="true"></i>
                         <label for="message">Message:</label>
                         <textarea class="form-control rounded" id="message" rows="3"
                             placeholder="Your message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                    <button type="submit" class="btn btn-primary mt-3"><i class="fa fa-send" aria-hidden="true"></i>Submit</button>
                 </form>
             </section>
         </div>
