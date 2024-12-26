@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Website icon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FutureTech Solutions</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">FutureTech Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron text-center">
+        <img class="img-fluid" src="images/logo.png" alt="logo">
+        <h1>FutureTech Solutions: Your Technology Partner</h1>
+        <p>Leading IT Consulting Services</p>
+    </div>
+    <!-- Responsive Container -->
+    <div class="container">
+
+        <!-- Contact Section -->
+        <div class="container">
+            <section id="contact">
+                <h2 class="h2 text-center mb-4">Contact Us</h2>
+                <form class="contact-form mx-auto col-md-10">
+                    <div class="form-group mb-3">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control rounded-pill" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control rounded-pill" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <!-- Type of enquiry -->
+                        <label for="enquiry">Type of Enquiry:</label>
+                        <select class="form-control rounded-pill" id="enquiry">
+                            <option value="IT Consulting">IT Consulting</option>
+                            <option value="Software Development">Software Development</option>
+                            <option value="Cloud Computing">Cloud Computing</option>
+                            <option value="Cybersecurity Consulting">Cybersecurity Consulting</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <!-- Tech literacy -->
+                        <!-- radio button -->
+                        <label for="tech-literacy">Tech Literacy:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="tech-literacy" id="yes" value="yes">
+                            <label class="form-check-label" for="yes">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="tech-literacy" id="no" value="no">
+                            <label class="form-check-label" for="no">No</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control rounded" id="message" rows="3"
+                            placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 bg-dark text-white py-3">
+        <p>&copy; 2024 FutureTech Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+<!-- Style -->
+<link rel="stylesheet" href="css/body.css">
+
+</html>
